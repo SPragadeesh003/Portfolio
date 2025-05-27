@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S. Pragadeesh - Aspiring Software Engineer</title>
+    <!-- Visualization & Content Choices: 
+        - Hero: Informational, HTML/Custom CSS (from user's style.css).
+        - About Me: Informational, HTML/Custom CSS, includes profile picture.
+        - Skills: Informational, HTML/Custom CSS, categorized lists in neumorphic cards.
+        - Projects: Informational, HTML/Custom CSS, project details in neumorphic cards with placeholder images.
+        - Resume: Informational, HTML/Custom CSS, download link and key highlights in a neumorphic card.
+        - Justification: To match the user's provided HTML, CSS, and JS files, creating a personal portfolio website style. Chart.js removed to align with this.
+        - CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel= "stylesheet" href ="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="#hero">S PRAGADEESH</a> | <span class="highlight">Aspiring Software Engineer</span></h1>
+            </div>
+            <nav>
+                <button id="menu-toggle" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="nav-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="#hero" class="nav-link current">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                    <li><a href="https://github.com/SPragadeesh003" target="_blank" rel="noopener noreferrer" title="GitHub Profile"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="page-section hero-block">
+            <div class="container-fluid">
+                <h1>S PRAGADEESH – Computer Science Graduate</h1>
+                <h2>Building Innovative & User-Centric Software Solutions</h2>
+                <p>
+                    I'm a recent Computer Science graduate from Vellore Institute of Technology, Chennai, specializing in Cyber Physical Systems. I'm passionate about developing robust software, exploring new technologies, and leveraging my skills in full-stack development (Java, Spring Boot, ReactJS, AngularJS) and IIOT to contribute to impactful projects.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="button button-primary">View My Projects</a>
+                    <a href="#about" class="button button-secondary">Learn More About Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="page-section">
+            <div class="container-fluid">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Having recently graduated in B.Tech Computer Science and Engineering with specialization in Cyber Physical Systems from Vellore Institute of Technology Chennai, I am eager to utilize technology in developing innovative and meaningful solutions. Theoretical learning coupled with hands-on experience has given me strong foundations in software as well as hardware integration.</p>
+                        <p>My full-stack development experience, especially with Java, has been grounded in the need to develop secure and scalable applications. The Iamneo certification also refined my frontend (HTML, CSS, JavaScript, ReactJS, AngularJS) and backend technologies (Spring Boot, TypeScript, MySQL) skills, enabling me to contribute positively to a number of projects.</p>
+                        <p>Throughout my internship at TI Cycles of India, I used hands-on experience with CRM management and IIOT to learn practical solutions for actual-time issues like an incident reporting system, as well as an IP status tracker. As a member of the Design and Editorial Team for the Rotaract Club of VIT Chennai has shown further, it has enabled me to grow as a team player and leader through supporting community projects and being rewarded for the design produced.</p>
+                        <p>I am a proactive, detail-oriented, and industrious person with strong work ethics and eagerness to learn. I would like to use my skills and interest in a challenging position where I can be part of a dynamic team and add constructively.</p>
+
+                        <h3>Education</h3>
+                        <p>
+                            <strong>Bachelor of Technology - Computer Science and Engineering with specialization in Cyber Physical Systems</strong><br>
+                            Vellore Institute of Technology, Chennai<br>
+                            Relevant Coursework: Data Structures & Algorithms, Database Management, Software Engineering, Java Full Stack Development.
+                        </p>
+                        <h3>Interests Outside of CS</h3>
+                        <p>When I'm not coding, I enjoy contributing to club activities (like Rotaract), creating designs, and exploring new technological trends.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="skills" class="page-section">
+    <div class="container-fluid">
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-intro">My technical expertise spans various domains, honed through academic projects, certifications, and practical experience.</p>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Java (Advanced)</li>
+                    <li>JavaScript (Intermediate)</li>
+                    <li>Python (Familiar)</li>
+                    <li>C (Familiar)</li>
+                    <li>C++ (Familiar)</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>Frontend Technologies</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>ReactJS</li>
+                    <li>AngularJS</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>Backend Technologies</h3>
+                <ul>
+                    <li>Spring Boot</li>
+                    <li>TypeScript</li>
+                    <li>Flask</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>Databases</h3>
+                <ul>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>Data & Simulation</h3>
+                <ul>
+                    <li>Digital Twins</li>
+                    <li>Unreal Engine</li>
+                    <li>SQL, Real-time Data Processing</li>
+                </ul>
+            </div>
+            <div class="skills-category">
+                <h3>Tools & Platforms</h3>
+                <ul>
+                    <li>Zoho (CRM)</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+             <div class="skills-category">
+                <h3>Concepts & Paradigms</h3>
+                <ul>
+                    <li>Object-Oriented Programming</li>
+                    <li>RESTful APIs</li>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Cyber Physical Systems</li>
+                    <li>IIOT</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="projects" class="page-section">
+            <div class="container-fluid">
+                <h2 class="section-title">My Coding Projects</h2>
+                <p class="section-intro">A collection of projects demonstrating my skills in software development and problem-solving.</p>
+                <div class="projects-grid">
+                    <article class="project-card">
+                <img src="assets/DT.png" alt="AquaSentinel Project Thumbnail">
+                <h3>Hybrid Quantum Machine Learning-Enabled Digital Twin for Real-Time Flood Prediction in Chembarambakkam Lake</h3>
+                <p class="project-context"><strong>Context:</strong> Final Year Capstone Project</p>
+                <p class="project-tech-stack"><strong>Tech Stack:</strong> Python, Quantum ML (QNN),Random Forest, XGBoost, Unreal Engine, Digital Twins, SQL, APIs</p>
+                <div class="project-description">
+                    <h4>Problem & Solution:</h4>
+                    <p>Developed "AquaSentinel," an integrated system for real-time flood prediction using a multi-model (QNN, RF, XGBoost) ML engine and a Digital Twin in Unreal Engine for Chembarambakkam Lake.</p>
+                    <h4>My Contribution:</h4>
+                    <p>Engineered features including rainfall/inflow forecasting, risk classification, real-time data integration (APIs, SQL), and Created Digital Twin of Chembarambakkam Lake using Unreal Engine.</p>
+                </div>
+                <!-- <div class="project-links">
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="button button-primary"><i class="fab fa-github"></i> View Code</a>
+                </div>-->
+            </article>
+                    <article class="project-card">
+                        <img src="assets/alcoholSensor.png" alt="Alcohol Sensing System Thumbnail">
+                        <h3>Alcohol Sensing & Engine Lock</h3>
+                        <p class="project-context"><strong>Context:</strong> Embedded Systems Project</p>
+                        <p class="project-tech-stack"><strong>Tech Stack:</strong> Microcontroller Technology, Sensors</p>
+                        <div class="project-description">
+                            <h4>Problem & Solution:</h4>
+                            <p>Developed an alcohol sensing and automatic engine locking system to prevent drunk driving by disabling the vehicle's engine when alcohol is detected on the driver's breath.</p>
+                            <h4>My Contribution:</h4>
+                            <p>Engineered the system integrating sensors for alcohol detection with microcontroller logic for automatic engine locking, focusing on reliability and accuracy.</p>
+                        </div>
+                        <!-- <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="button button-primary"><i class="fab fa-github"></i> View Code</a>
+                        </div> -->
+                    </article>
+                    <article class="project-card">
+                        <img src="assets/sampleWeb.png" alt="Sample Website Thumbnail">
+                        <h3>Sample Website</h3>
+                        <p class="project-context"><strong>Context:</strong> Web Development Fundamentals</p>
+                        <p class="project-tech-stack"><strong>Tech Stack:</strong> HTML, CSS</p>
+                         <div class="project-description">
+                            <h4>Problem & Solution:</h4>
+                            <p>Created a simple, foundational website to practice and demonstrate core HTML and CSS skills for web page structure and styling.</p>
+                            <h4>My Contribution:</h4>
+                            <p>Designed and implemented the website structure and styling from scratch, focusing on clean code and basic layout principles.</p>
+                        </div>
+                        <div class="project-links">
+                             <p class="text-sm text-gray-400 mt-2"><em>Project Link: Available upon request</em></p>
+                            </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="https://placehold.co/600x400/3A2F28/CFC6C0?text=CRM+Ticketing+System" alt="CRM Ticketing System Thumbnail">
+                        <h3>CRM Incident Reporting System</h3>
+                        <p class="project-context"><strong>Context:</strong> Internship Project (TI Cycles of India)</p>
+                        <p class="project-tech-stack"><strong>Tech Stack:</strong> Zoho (CRM), Automation Scripting</p>
+                        <div class="project-description">
+                            <h4>Problem & Solution:</h4>
+                            <p>Developed and customized a Zoho incident reporting form with automated SLAs, technician group integration, and master data mapping.</p>
+                            <h4>My Contribution:</h4>
+                            <p>Led the customization of the Zoho form, implemented automation rules for SLAs and technician assignments, and ensured seamless functionality through rigorous testing.</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="https://placehold.co/600x400/3A2F28/CFC6C0?text=IIOT+IP+Monitoring" alt="IIOT IP Monitoring Thumbnail">
+                        <h3>IIOT Network Device IP Monitoring</h3>
+                        <p class="project-context"><strong>Context:</strong> Internship Project (TI Cycles of India)</p>
+                        <p class="project-tech-stack"><strong>Tech Stack:</strong> Python, Flask, CSV, HTML/CSS</p>
+                         <div class="project-description">
+                            <h4>Problem & Solution:</h4>
+                            <p>Developed a Flask-based Python project for real-time network device IP monitoring, with CSV data storage and a web interface for remote tracking.</p>
+                            <h4>My Contribution:</h4>
+                            <p>Built the Python backend for IP status checking, data logging to CSV, and developed the Flask web interface for displaying real-time status and analysis.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="page-section">
+            <div class="container-fluid">
+                <h2 class="section-title">My Resume & Certifications</h2>
+                <p class="section-intro">For a comprehensive overview of my qualifications, experience, and certifications.</p>
+                <div class="resume-actions">
+                    <a href="Pragadeesh_resume_nov.pdf" download="S_Pragadeesh_Resume.pdf" class="button button-primary">
+                        <i class="fas fa-download"></i> Download PDF Resume
+                    </a>
+                </div>
+                <div class="resume-highlights">
+                    <h3>Key Highlights:</h3>
+                    <ul>
+                        <li>Proficient in Java, JavaScript, and Python with hands-on experience in full-stack web development (Spring Boot, ReactJS, AngularJS) and IIOT.</li>
+                        <li>Strong foundation in Data Structures, Algorithms, Object-Oriented Programming, and Cyber Physical Systems.</li>
+                        <li>Successfully developed and contributed to multiple projects, including CRM customization and real-time monitoring systems during internship.</li>
+                        <li>Certified in Java Full Stack Development by Iamneo.</li>
+                        <li>Active member of Rotaract Club, contributing to design and editorial tasks, with recognition for poster designs.</li>
+                    </ul>
+                </div>
+                 <div class="skills-category" style="margin-top: 30px;"> <h3>Certifications</h3>
+                    <ul>
+                        <li>
+                            <strong>Java Full Stack Course Certification</strong> - Iamneo<br>
+                            <small>Comprehensive 2-month course: Java, HTML, CSS, JavaScript, ReactJS, AngularJS, Spring Boot, TypeScript, MySQL.</small>
+                        </li>
+                    </ul>
+                </div>
+                 <div class="skills-category" style="margin-top: 30px;">
+                    <h3>Achievements</h3>
+                    <ul>
+                        <li>
+                            <strong>Rotaract Club of VIT Chennai (Member, Design and Editorial Team 2023-2024)</strong><br>
+                            <small>Received recognition for "Best Design" for 3 event posters.</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3>Get in Touch</h3>
+            <p class="footer-cta">I'm excited about new challenges and opportunities. Let's build something great together!</p>
+            <div class="footer-contact-links">
+                <a href="mailto:pragadeeshvit2021@gmail.com" class="footer-link" title="Email Me"><i class="fas fa-envelope"></i> pragadeeshvit2021@gmail.com</a>
+                <a href="https://github.com/SPragadeesh003" target="_blank" rel="noopener noreferrer" class="footer-link" title="GitHub Profile"><i class="fab fa-github"></i> GitHub Portfolio</a>
+                </div>
+            <div class="social-links-separator"></div>
+            <p class="copyright">&copy; <span id="currentYear"></span> S. Pragadeesh. All Rights Reserved.</p>
+            <p class="footer-tech">Designed for Impact. Built with HTML, CSS & JavaScript.</p>
+        </div>
+    </footer>
+    <script src = "script.js"> </script>
+</body>
+</html>
