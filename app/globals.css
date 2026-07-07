@@ -1,0 +1,64 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), 'Geist Mono Fallback';
+
+  --color-border: var(--border);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+}
+
+:root {
+  color-scheme: dark;
+  --background: #0f0f14;
+  --foreground: #ffffff;
+
+  --muted: #111111;
+  --muted-foreground: #888888;
+
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+
+  --secondary: #222222;
+  --secondary-foreground: #ffffff;
+
+  --border: #333333;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    cursor: default;
+  }
+
+  ::selection {
+    background: #ffffff;
+    color: #000000;
+  }
+}
+
+@layer utilities {
+  .clip-text-reveal {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .border-obys {
+    @apply border-b border-[#333];
+  }
+}
